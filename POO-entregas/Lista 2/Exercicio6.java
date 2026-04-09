@@ -1,9 +1,16 @@
-package com.mycompany.mavenproject1;
+package com.mycompany.converteemmoedas;
 import java.lang.Math;
 import java.util.Scanner;
 
-public class Mavenproject1 {
-
+public class ConverteEmMoedas {
+    /*Faça um programa que para cada produto informado (nome, preço e
+quantidade), escreva o nome do produto comprado e o valor total a ser pago, considerando
+que são oferecidos descontos pelo número de unidades compradas, segundo as opções
+abaixo:
+a. Até 10 unidades: valor total
+b. de 11 a 20 unidades: 10% de desconto
+c. de 21 a 50 unidades: 20% de desconto
+d. acima de 50 unidades: 25% de desconto*/
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Entre com o nome: ");
