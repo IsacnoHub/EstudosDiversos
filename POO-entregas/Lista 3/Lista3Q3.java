@@ -1,6 +1,11 @@
-package com.mycompany.mavenproject1;
+package com.mycompany.analisapalavra;
 import java.util.Scanner;
-public class Mavenproject1 {
+public class AnalisaPalavra{
+    /*Escreva um programa em Java que analise uma palavra ou frase digitada pelo usuário e:
+○ Exiba o número total de caracteres
+○ Exiba tudo em maiúsculo
+○ Exiba tudo em minúsculo
+○ Conte quantas vezes a letra A aparece*/
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Entre com a frase: ");
