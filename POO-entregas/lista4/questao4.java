@@ -1,6 +1,9 @@
-package com.mycompany.mavenproject1;
+package com.mycompany.ordenandopessoas;
 import java.util.Scanner;
-public class Mavenproject1 {
+public class OrdenandoPessoas {
+    /*Leia o nome e a idade de 10 pessoas e liste as pessoas
+– Em ordem alfabética
+– Em ordem crescente de idade*/
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         String[] nomes = new String[10];
