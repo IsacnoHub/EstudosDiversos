@@ -1,6 +1,9 @@
-package com.mycompany.mavenproject1;
+package com.mycompany.parabens;
 import java.util.Scanner;
-public class Mavenproject1 {
+public class Parabens{
+    /*Crie um programa para ler inicialmente o número de alunos de uma turma. Em
+seguida, leia as notas dos alunos dessa turma. Ao final, imprima a média da turma e as
+notas acima da média.*/
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         int nAlunos = teclado.nextInt();
