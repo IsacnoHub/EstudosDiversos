@@ -1,8 +1,8 @@
-package com.mycompany.mavenproject1;
+package com.mycompany.parafloat;
 import java.lang.Math;
 import java.util.Scanner;
-public class Mavenproject1 {
-
+public class ParaFloat {
+    //Altere o tipo das duas variáveis do exercício 1 para ponto flutuante.
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Entre com o primeiro: ");
