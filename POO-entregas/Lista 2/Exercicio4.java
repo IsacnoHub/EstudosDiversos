@@ -1,8 +1,10 @@
-package com.mycompany.mavenproject1;
+package com.mycompany.vmediaeconsumo;
 import java.lang.Math;
 import java.util.Scanner;
-public class Mavenproject1 {
-
+public class VMediaEConsumo {
+    //Faça um programa que leia a distância percorrida por um carro, o tempo gasto
+    //e a quantidade de gasolina consumida. Em seguida, imprima a velocidade média (KM/h) e
+    //o consumo de combustível (Km/l).
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Entre com a distância: ");
