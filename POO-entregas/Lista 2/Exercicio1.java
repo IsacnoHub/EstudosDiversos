@@ -1,8 +1,9 @@
-package com.mycompany.mavenproject1;
+package com.mycompany.calculadora;
 import java.lang.Math;
 import java.util.Scanner;
-public class Mavenproject1 {
-
+public class Calculadora {
+    //Leia duas variáveis inteiras e imprima a soma, subtração, multiplicação e
+    //divisão entre elas.
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Entre com o primeiro: ");
