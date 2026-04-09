@@ -6,12 +6,12 @@ public class Mavenproject1 {
         String[] nomes = new String[10];
         int[] idades = new int[10];
         for (int q=0; q<10; q++){
-            System.out.println("Entre com o nome "+(i+1));
+            System.out.println("Entre com o nome "+(q+1));
             String nome = teclado.nextLine();
             nomes[q] = nome;
         }
         for (int y=0; y<10; y++){
-            System.out.println("Entre com a idade "+(i+1));
+            System.out.println("Entre com a idade "+(y+1));
             int idade = teclado.nextInt();
             idades[y] = idade;
         }
@@ -51,4 +51,3 @@ public class Mavenproject1 {
             System.out.println(nomes[g]+" "+idades[g]);
     }
 }
-
