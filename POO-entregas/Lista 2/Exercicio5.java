@@ -1,9 +1,10 @@
-package com.mycompany.mavenproject1;
+package com.mycompany.trinangulo;
 import java.lang.Math;
 import java.util.Scanner;
 
-public class Mavenproject1 {
-
+public class Triangulo {
+    //Faça um programa que leia três coordenadas num espaço 2D e indique se
+    //formam um triângulo, juntamente com o seu tipo (equilátero, isósceles e escaleno)
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Entre com as coordenadas: ");
