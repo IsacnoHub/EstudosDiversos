@@ -1,8 +1,9 @@
-package com.mycompany.mavenproject1;
+package com.mycompany.convertetempo;
 import java.lang.Math;
 import java.util.Scanner;
-public class Mavenproject1 {
-
+public class ConverteTempo {
+    //Leia uma variável t com um tempo qualquer em segundos e imprima esse
+    //valor em hora, minuto e segundo.
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Entre com o tempo: ");
