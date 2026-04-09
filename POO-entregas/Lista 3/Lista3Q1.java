@@ -1,6 +1,7 @@
-package com.mycompany.mavenproject1;
-public class Mavenproject1 {
-
+package com.mycompany.tabuada;
+public class Tabuada {
+    /*Construa a tabela de multiplicação de números de 1 a 10
+(Ex.: 1 x 1 = 1, 1 x 2 = 2, etc.).*/
     public static void main(String[] args) {
         for (int i=0; i<10; i++){
             System.out.printf("\n");
