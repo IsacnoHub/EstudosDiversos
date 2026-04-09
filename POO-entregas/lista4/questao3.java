@@ -1,6 +1,11 @@
-package com.mycompany.mavenproject1;
+package com.mycompany.passaalistaprafrente;
 import java.util.Scanner;
-public class Mavenproject1 {
+public class PassaAListaPraFrente {
+    /*Crie um programa para ler um número n e um vetor v com n números inteiros. Depois,
+ler mais um número k e um número p. Em seguida, inserir o número k na posição p do
+vetor, deslocando os números da posição p em diante para frente uma posição (o
+último número será perdido) e imprimir o vetor resultante. Caso p seja inválido
+apresente a mensagem "Posição inválida".*/
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Entre com n: ");
