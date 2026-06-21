@@ -4,8 +4,10 @@ class Aluno {
     }
     
     public String obterStatus(double media) {
-        if (media > 6) return "Aprovado";
-        if (media >= 4 && media <= 6) return "Verificação Suplementar";
+        if (media > 6) 
+            return "Aprovado";
+        if (media >= 4 && media <= 6) 
+            return "Verificação Suplementar";
         return "Reprovado";
     }
 }

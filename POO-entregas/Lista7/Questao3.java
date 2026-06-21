@@ -3,8 +3,10 @@ abstract class Funcionario {
     float salarioBruto;
     
     float calcularIR(float base) {
-        if (base <= 900) return 0;
-        if (base <= 1500) return base * 0.15f;
+        if (base <= 900) 
+            return 0;
+        if (base <= 1500) 
+            return base * 0.15f;
         return base * 0.20f;
     }
     

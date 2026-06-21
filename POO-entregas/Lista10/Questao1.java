@@ -1,17 +1,23 @@
 class CalculadorPrimos extends Thread {
     int inicio, fim, contagem = 0;
-    public CalculadorPrimos(int inicio, int fim) { this.inicio = inicio; this.fim = fim; }
+    public CalculadorPrimos(int inicio, int fim) { 
+        this.inicio = inicio; this.fim = fim; 
+    }
     
     private boolean isPrimo(int num) {
-        if (num < 2) return false;
+        if (num < 2) 
+            return false;
         for (int i = 2; i <= Math.sqrt(num); i++) {
-            if (num % i == 0) return false;
+            if (num % i == 0) 
+                return false;
         }
         return true;
     }
     
     public void run() {
-        for (int i = inicio; i <= fim; i++) if (isPrimo(i)) contagem++;
+        for (int i = inicio; i <= fim; i++) 
+            if (isPrimo(i)) 
+                contagem++;
     }
 }
 

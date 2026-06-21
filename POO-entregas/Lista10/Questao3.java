@@ -1,1 +1,0 @@
-Diferença entre sleep() e join().  sleep(millis): Pausa a execução da thread atual por um tempo especificado. Ela não libera monitores de objetos (locks).join(): Faz com que a thread atual aguarde até que a thread na qual o join() foi chamado termine sua execução (morra) para poder continuar.
